@@ -2,32 +2,27 @@ nav {
     background-color: #333;
     padding: 10px 20px;
 }
-
-ul {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.nav-menu {
+    font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
-
-ul li {
+.nav-menu li {
     margin-right: 20px;
     padding-left: 30px;
 }
-
-ul li a {
+.nav-menu li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
 }
-
-ul li a:hover {
+.nav-menu li a:hover {
     border-bottom: 1px solid;
     color: #ff7f32;
 }
-
 body {
     background-color: #D3D3D3; 
     color: black; 
@@ -37,7 +32,7 @@ body ul li{
     color:orangered;
     }
 h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     font-style: initial;
@@ -49,22 +44,24 @@ h1{
    #333 5px 5px 10px;color:orangered;
 }
 h2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: orangered;
 }
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 p{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #acceuilDef{
     font-weight: 700;
 }
-.iconlist
-{
+.iconlist{
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -79,25 +76,32 @@ footer {
 #contacter{
     text-align: left;
 }
-
 .img{
     position: absolute;
     mix-blend-mode: multiply;
     
     left: 50%;
-    transform: translate(200%, -220%);
-  
+    transform: translate(300%, -290%);
 }
 .oblique{
     font-style: oblique;
     ;
 }
 .mod{
-    text-shadow: #D3D3D3;
-    text-decoration-line: underline;
     text-decoration-style: double;
 }
 .ft{
     text-align: center;
+}
 
+.imgd{
+    position: absolute;
+    mix-blend-mode: multiply;
+    
+    left: 50%;
+    transform: translate(200%, 100%);
+}
+.tde{
+    color: orangered;
+    font-style: oblique;
 }
