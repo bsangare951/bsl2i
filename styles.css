@@ -76,12 +76,15 @@ footer {
 #contacter{
     text-align: left;
 }
+#hautDePage{
+    text-align: center;
+}
 .img{
     position: absolute;
     mix-blend-mode: multiply;
     
     left: 50%;
-    transform: translate(300%, -290%);
+    transform: translate(300%, -40%);
 }
 .oblique{
     font-style: oblique;
@@ -97,11 +100,30 @@ footer {
 .imgd{
     position: absolute;
     mix-blend-mode: multiply;
-    
     left: 50%;
-    transform: translate(200%, 100%);
+    transform: translate(200%, -45%);
 }
 .tde{
     color: orangered;
     font-style: oblique;
 }
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+.content h3{
+    margin-top: 0;
+    flex:0
+}
+.content p {
+    flex: 3;
+    text-align: justify;
+}
+
+.content img {
+    flex: 1;
+}
+
+
